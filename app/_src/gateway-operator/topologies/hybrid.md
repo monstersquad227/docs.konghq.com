@@ -166,6 +166,7 @@ spec:
             secret:
               secretName: kong-cluster-cert
               defaultMode: 420
+" | kubectl apply -f -
 ```
 {% endnavtab %}
 {% endnavtabs %}
